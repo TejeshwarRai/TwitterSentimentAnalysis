@@ -25,7 +25,7 @@ st.set_page_config(layout="wide", page_title="Twitter Sentiment Analysis", page_
 st.title("Twitter Sentiment Analysis")
 
 api = tweepy.Client(
-    bearer_token="AAAAAAAAAAAAAAAAAAAAACXMlgEAAAAAr%2F4yPAeHrgZptrVssrAo5foJp00%3DODpZbD9d5ItzQpLCoNlLc9tMFtNFnydCfa50CNmaEy4Um2N3JV")
+    bearer_token="token")
 
 
 def percentage(num, tot):
