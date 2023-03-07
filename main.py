@@ -20,7 +20,7 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from sklearn.feature_extraction.text import CountVectorizer
 
 api = tweepy.Client(
-    bearer_token="AAAAAAAAAAAAAAAAAAAAACXMlgEAAAAAr%2F4yPAeHrgZptrVssrAo5foJp00%3DODpZbD9d5ItzQpLCoNlLc9tMFtNFnydCfa50CNmaEy4Um2N3JV")
+    bearer_token="token")
 
 
 def percentage(num, tot):
